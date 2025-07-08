@@ -4,11 +4,6 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <NoWarn>NU1701;NU1702;CA1812;CA1825</NoWarn>
-    <WarningLevel>2</WarningLevel>
-  </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Azure.Storage.Queues" Version="12.7.0" />
     <PackageReference Include="EntityFramework" Version="6.2.0" />
